@@ -1,0 +1,8 @@
+{
+  "name": "adshield-dns",
+  "version": "1.0.0",
+  "description": "AdShield system-wide encrypted DNS (DoH/DoT) bridge",
+  "main": "index.ts",
+  "license": "UNLICENSED",
+  "private": true
+}

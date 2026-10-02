@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>DNSSettings</key>
+      <dict>
+        <key>DNSProtocol</key>
+        <string>HTTPS</string>
+        <key>ServerAddresses</key>
+        <array>
+          <string>94.140.14.14</string>
+          <string>94.140.15.15</string>
+        </array>
+        <key>ServerURL</key>
+        <string>https://dns.adguard-dns.com/dns-query</string>
+      </dict>
+      <key>OnDemandRules</key>
+      <array>
+        <dict>
+          <key>Action</key>
+          <string>Connect</string>
+        </dict>
+      </array>
+      <key>PayloadDescription</key>
+      <string>使用 AdGuard 公共加密 DNS，拦截应用和网页中的第三方广告及跟踪域名。</string>
+      <key>PayloadDisplayName</key>
+      <string>AdShield 全局广告域名过滤</string>
+      <key>PayloadIdentifier</key>
+      <string>com.app.adshieldmobile.dns</string>
+      <key>PayloadType</key>
+      <string>com.apple.dnsSettings.managed</string>
+      <key>PayloadUUID</key>
+      <string>F3BE7616-B9A7-4F99-868B-51D3768319CA</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+  </array>
+  <key>PayloadDescription</key>
+  <string>为 iPhone 启用系统级加密 DNS 广告域名过滤。可随时在“设置 → 通用 → VPN 与设备管理”中移除。</string>
+  <key>PayloadDisplayName</key>
+  <string>AdShield 全局广告过滤</string>
+  <key>PayloadIdentifier</key>
+  <string>com.app.adshieldmobile.profile.dns</string>
+  <key>PayloadOrganization</key>
+  <string>AdShield</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>7940175C-0507-4442-BCE7-3EC9773A30AE</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

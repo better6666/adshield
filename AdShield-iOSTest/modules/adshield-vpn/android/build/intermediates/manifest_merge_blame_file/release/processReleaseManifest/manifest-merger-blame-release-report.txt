@@ -1,0 +1,54 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="expo.modules.adshieldvpn" >
+4
+5    <uses-sdk android:minSdkVersion="24" />
+6
+7    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+7-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:2:3-75
+7-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:2:20-72
+8
+9    <application>
+9-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:3:3-24:17
+10        <service
+10-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:4:5-11:15
+11            android:name="expo.modules.adshieldvpn.AdShieldVpnService"
+11-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:5:7-41
+12            android:exported="false"
+12-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:6:7-31
+13            android:permission="android.permission.BIND_VPN_SERVICE" >
+13-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:7:7-63
+14            <intent-filter>
+14-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:8:7-10:23
+15                <action android:name="android.net.VpnService" />
+15-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:9:9-57
+15-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:9:17-54
+16            </intent-filter>
+17        </service>
+18        <service
+18-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:12:5-23:15
+19            android:name="expo.modules.adshieldvpn.AdShieldAdAssistService"
+19-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:13:7-46
+20            android:exported="true"
+20-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:14:7-30
+21            android:label="@string/adshield_ad_assist_label"
+21-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:15:7-55
+22            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+22-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:16:7-73
+23            <intent-filter>
+23-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:17:7-19:23
+24                <action android:name="android.accessibilityservice.AccessibilityService" />
+24-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:18:9-84
+24-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:18:17-81
+25            </intent-filter>
+26
+27            <meta-data
+27-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:20:7-22:61
+28                android:name="android.accessibilityservice"
+28-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:21:9-52
+29                android:resource="@xml/adshield_ad_assist_config" />
+29-->/Users/better/Desktop/拦截广告弹窗/AdShield-iOSTest/modules/adshield-vpn/android/src/main/AndroidManifest.xml:22:9-58
+30        </service>
+31    </application>
+32
+33</manifest>

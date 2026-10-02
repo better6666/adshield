@@ -1,0 +1,33 @@
+{
+  "name": "@adshield/vpn",
+  "version": "1.0.0",
+  "description": "AdShield VPN 广告拦截模块 - DNS 流量拦截与摇一摇检测",
+  "main": "index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./types": "./src/AdShieldVpn.types.ts"
+  },
+  "scripts": {
+    "lint": "eslint \"./**/*.{ts,tsx}\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "expo",
+    "android",
+    "vpn",
+    "adblock",
+    "dns"
+  ],
+  "author": "AdShield Team",
+  "license": "MIT",
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "~18.2.79",
+    "expo-modules-core": "^1.12.24",
+    "kotlin": "^1.9.24"
+  }
+}

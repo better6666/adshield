@@ -1,0 +1,8 @@
+{
+  "name": "adshield-safari",
+  "version": "1.0.0",
+  "description": "AdShield Safari content blocker bridge",
+  "main": "index.ts",
+  "license": "UNLICENSED",
+  "private": true
+}

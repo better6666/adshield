@@ -1,0 +1,30 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 本地环境与缓存
+.expo/
+web-dist/
+dist/
+.env
+.env.*
+*.log
+
+# iOS 构建产物（可由 npx expo prebuild && pod install 重新生成）
+AdShield-iOSTest/ios/Pods/
+AdShield-iOSTest/ios/build/
+AdShield-iOSTest/ios/**/xcuserdata/
+*.xcuserstate
+*.moved-aside
+
+# Android 构建产物
+AdShield-iOSTest/android/build/
+AdShield-iOSTest/android/app/build/
+AdShield-iOSTest/android/.gradle/
+AdShield-iOSTest/android/.cxx/
+
+# 系统文件
+.DS_Store
+
+# 本地 agent 会话笔记
+.ai/

@@ -1,0 +1,2987 @@
+[
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?doubleclick\\.net[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?doubleclick\\.net$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?googlesyndication\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?googlesyndication\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?googleadservices\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?googleadservices\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adservice\\.google\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adservice\\.google\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adsrvr\\.org[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adsrvr\\.org$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?pagead2\\.googlesyndication\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?pagead2\\.googlesyndication\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adclick\\.g\\.doubleclick\\.net[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adclick\\.g\\.doubleclick\\.net$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?ad\\.doubleclick\\.net[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?ad\\.doubleclick\\.net$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?cpro\\.baidu\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?cpro\\.baidu\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?pos\\.baidu\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?pos\\.baidu\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?eclick\\.baidu\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?eclick\\.baidu\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?hmma\\.baidu\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?hmma\\.baidu\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?cbjs\\.baidu\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?cbjs\\.baidu\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?cpro2\\.baidustatic\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?cpro2\\.baidustatic\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?mobads\\.baidu\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?mobads\\.baidu\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?mobads-pre-config\\.cdn\\.bcebos\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?mobads-pre-config\\.cdn\\.bcebos\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?union\\.bytedance\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?union\\.bytedance\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?ad\\.oceanengine\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?ad\\.oceanengine\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?sf3-ttcdn-tos\\.pstatp\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?sf3-ttcdn-tos\\.pstatp\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?pangolin-sdk-toutiao\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?pangolin-sdk-toutiao\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?pglstatp-toutiao\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?pglstatp-toutiao\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?ads\\.stickyadstv\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?ads\\.stickyadstv\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adx\\.ads-pixiv\\.net[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adx\\.ads-pixiv\\.net$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adtago\\.s3\\.amazonaws\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adtago\\.s3\\.amazonaws\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?tanx\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?tanx\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?alimama\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?alimama\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adashx\\.m\\.taobao\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adashx\\.m\\.taobao\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?google-analytics\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?google-analytics\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?segment\\.io[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?segment\\.io$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?mixpanel\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?mixpanel\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?hotjar\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?hotjar\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?clarity\\.ms[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?clarity\\.ms$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?hm\\.baidu\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?hm\\.baidu\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?tongji\\.baidu\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?tongji\\.baidu\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?cnzz\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?cnzz\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?umeng\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?umeng\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?growingio\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?growingio\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?sensors\\.data[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?sensors\\.data$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?analytics\\.tiktok\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?analytics\\.tiktok\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?log\\.bytedance\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?log\\.bytedance\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?sentry\\.io[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?sentry\\.io$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?bugsnag\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?bugsnag\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?app-measurement\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?app-measurement\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?popads\\.net[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?popads\\.net$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?popcash\\.net[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?popcash\\.net$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?push-notifications\\.net[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?push-notifications\\.net$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?onclickads\\.net[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?onclickads\\.net$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?propellerads\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?propellerads\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?exoclick\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?exoclick\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?juicyads\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?juicyads\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adcash\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adcash\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?trafficjunky\\.net[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?trafficjunky\\.net$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?clickadu\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?clickadu\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "url-filter-is-case-sensitive": false,
+      "resource-type": [
+        "document"
+      ]
+    },
+    "action": {
+      "type": "css-display-none",
+      "selector": ".ad, .ads, .advert, .advertisement, .sponsor, [id*='ad-'], [class*='ad-'], [class*='advert'], [class*='sponsor'], [id*='sponsor'], .ad-banner, .ad-wrapper, .ad-container, [data-ad], [data-ad-slot], [data-google-query-id], .adsbygoogle, ins.adsbygoogle, .ad-placeholder, .ad-slot"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?admob\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?admob\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?unityads\\.unity3d\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?unityads\\.unity3d\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?applovin\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?applovin\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?pangle\\.io[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?pangle\\.io$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?e\\.qq\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?e\\.qq\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?gdt\\.qq\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?gdt\\.qq\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?mi\\.gdt\\.qq\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?mi\\.gdt\\.qq\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?sdk\\.e\\.qq\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?sdk\\.e\\.qq\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adsmind\\.gdtimg\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adsmind\\.gdtimg\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?qzs\\.gdtimg\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?qzs\\.gdtimg\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?is\\.snssdk\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?is\\.snssdk\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?pangolin\\.snssdk\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?pangolin\\.snssdk\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?open\\.e\\.kuaishou\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?open\\.e\\.kuaishou\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adx\\.kuaishou\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?adx\\.kuaishou\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?api-access\\.pangolin-sdk-toutiao\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?api-access\\.pangolin-sdk-toutiao\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?toblog\\.ctobsnssdk\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?toblog\\.ctobsnssdk\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?ad\\.partner\\.gifshow\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?ad\\.partner\\.gifshow\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?ads-api\\.twitter\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?ads-api\\.twitter\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?click\\.linksynergy\\.com[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?click\\.linksynergy\\.com$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?go2cloud\\.org[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?go2cloud\\.org$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?track\\.adform\\.net[/:?#]",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": "^https?://([^/]+\\.)?track\\.adform\\.net$",
+      "url-filter-is-case-sensitive": false,
+      "load-type": [
+        "third-party"
+      ],
+      "resource-type": [
+        "script",
+        "image",
+        "raw",
+        "fetch",
+        "ping",
+        "other"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "url-filter-is-case-sensitive": false,
+      "resource-type": [
+        "popup"
+      ]
+    },
+    "action": {
+      "type": "block"
+    }
+  }
+]

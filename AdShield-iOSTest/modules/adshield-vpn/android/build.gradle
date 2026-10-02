@@ -1,0 +1,20 @@
+apply plugin: 'com.android.library'
+
+group = 'expo.modules.adshieldvpn'
+
+def expoModulesCorePlugin = new File(project(':expo-modules-core').projectDir.absolutePath, 'ExpoModulesCorePlugin.gradle')
+apply from: expoModulesCorePlugin
+applyKotlinExpoModulesCorePlugin()
+useCoreDependencies()
+useExpoPublishing()
+useDefaultAndroidSdkVersions()
+
+android {
+  namespace 'expo.modules.adshieldvpn'
+  defaultConfig {
+    minSdkVersion 24
+  }
+  lintOptions {
+    abortOnError false
+  }
+}

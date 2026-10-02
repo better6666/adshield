@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "expo.modules.adshieldvpn.adshield-vpn-release-28:/xml/rn_dev_preferences.xml",
+        "source": "expo.modules.adshieldvpn.adshield-vpn-react-android-0.81.5-release-2:/xml/rn_dev_preferences.xml"
+    },
+    {
+        "merged": "expo.modules.adshieldvpn.adshield-vpn-release-28:/xml/adshield_ad_assist_config.xml",
+        "source": "expo.modules.adshieldvpn.adshield-vpn-main-29:/xml/adshield_ad_assist_config.xml"
+    }
+]

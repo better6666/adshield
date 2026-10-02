@@ -1,0 +1,5 @@
+R_DEF: Internal format may change without notice
+local
+string adshield_ad_assist_description
+string adshield_ad_assist_label
+xml adshield_ad_assist_config

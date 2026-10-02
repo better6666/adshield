@@ -1,0 +1,7 @@
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+  android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged"
+  android:accessibilityFeedbackType="feedbackGeneric"
+  android:notificationTimeout="120"
+  android:canRetrieveWindowContent="true"
+  android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows"
+  android:description="@string/adshield_ad_assist_description" />

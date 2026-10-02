@@ -1,0 +1,4 @@
+<resources>
+  <string name="adshield_ad_assist_label">AdShield 广告辅助</string>
+  <string name="adshield_ad_assist_description">在你主动开启后，检测可能包含“摇一摇”“扭转手机”“关闭广告”或微信小程序倒计时“跳过”的界面，并显示用户可控的跳过辅助按钮。不读取或上传屏幕内容。</string>
+</resources>

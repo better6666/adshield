@@ -1,0 +1,3 @@
+int string adshield_ad_assist_description 0x0
+int string adshield_ad_assist_label 0x0
+int xml adshield_ad_assist_config 0x0
