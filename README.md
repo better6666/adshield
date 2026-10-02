@@ -1,5 +1,7 @@
 # AdShield · 移动端广告弹窗拦截
 
+**简体中文** | [English](README.en.md)
+
 iOS / Android 双端广告与弹窗拦截工具。规则引擎完全在本地运行，不上传任何浏览数据。
 
 **Android 是完整功能端**：基于 `VpnService` 的按 App 域名过滤，可为不同 App 分别启停拦截。
@@ -23,6 +25,8 @@ iOS / Android 双端广告与弹窗拦截工具。规则引擎完全在本地运
 - App 选择与安全档位（Android）：为已安装的 App 单独配置保护强度，含暂停与熔断策略
 - DNS 上游可选：AdGuard Default / Unfiltered、AliDNS、DNSPod DoH、Quad9、Cloudflare DoH
 - 全部配置通过 AsyncStorage 本地持久化，冷启动即按当前开关状态同步一次规则
+
+> 应用界面目前只有中文，未接入 i18n；本文档的英文版描述的是功能，不是可切换的界面语言。
 
 ## 技术栈
 
